@@ -1,0 +1,27 @@
+.kocak{
+	position: relative;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.yogs{
+	width: 100%;
+}
+.yaman{
+	padding-bottom: 10px;
+}
+.kucing{
+	width: 2000px;
+}
+.kocak2{
+	position: right;
+}
+.yuhu{
+	color: red;
+}
+.yuhu2{
+	margin: 5px;
+	border-color: red;
+	color: red;
+}
+

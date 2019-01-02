@@ -1,0 +1,277 @@
+.bot {
+	height:3px;
+	background:grey;
+	margin-top:1%;
+}
+.progress {
+  list-style: none;
+  margin: 0;
+  margin-bottom:2%;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  color: #849397;
+}
+.progress > li {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  font-size: 0.6em;
+}
+.progress > li:before {
+  content: attr(data-step);
+  display: block;
+  margin: 0 auto;
+  background: #DFE3E4;
+  width: 6.25em;
+  height: 6.25em;
+  text-align: center;
+  margin-bottom: 0.25em;
+  line-height: 5.5em;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1000;
+}
+.progress > li:after {
+  content: '';
+  position: absolute;
+  display: block;
+  background: #DFE3E4;
+  width: 100%;
+  height: 0.75em;
+  top: 2.5em;
+  left: 50%;
+  margin-left: 1.5em\9;
+  z-index: -1;
+}
+.progress > li:last-child:after {
+  display: none;
+}
+.progress > li.is-complete {
+  color: #096932;
+  font-weight:bold;
+}
+.progress > li.is-complete:before, .progress > li.is-complete:after {
+  color: #FFF;
+  background: #2ECC71;
+}
+.progress > li.is-danger {
+  color: #ff0000;
+  font-weight:bold;
+}
+.progress > li.is-danger:before, .progress > li.is-danger:after {
+  color: #FFF;
+  background: #e63737;
+}
+
+/**
+ * Needed for IE8
+ */
+.progress__last:after {
+  display: none !important;
+}
+
+/**
+ * Size Extensions
+ */
+.progress--medium {
+  font-size: 1em;
+}
+
+.progress--large {
+  font-size: 1.2em;
+}
+
+/**
+ * Some Generic Stylings
+ */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/* no background */
+.progresso {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.progresso > li {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  font-size: 0.6em;
+}
+.progresso > li:before {
+  content: attr(data-step);
+  display: block;
+  margin: 0 auto;
+  width: 6.25em;
+  text-align: center;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1000;
+}
+.progresso > li:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 2.5em;
+  left: 50%;
+  margin-left: 1.5em\9;
+  z-index: -1;
+}
+.progresso > li:last-child:after {
+  display: none;
+}
+.progresso > li.is-complete {
+  color: #096932;
+  font-weight:bold;
+}
+.progresso > li.is-complete:before, .progresso > li.is-complete:after {
+  color: #FFF;
+  background: #2ECC71;
+}
+.progresso > li.is-danger {
+  color: #ff0000;
+  font-weight:bold;
+}
+.progresso > li.is-danger:before, .progresso > li.is-danger:after {
+  color: #FFF;
+  background: #e63737;
+}
+
+/**
+ * Needed for IE8
+ */
+.progresso__last:after {
+  display: none !important;
+}
+
+/**
+ * Size Extensions
+ */
+.progresso--medium {
+  font-size: 1em;
+}
+
+.progresso--large {
+  font-size: 1.2em;
+}
+
+/**
+ * Some Generic Stylings
+ */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/* =====TIMELINE BAWAH===== */
+
+.progressb {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 50%;
+  color: #849397;
+}
+.progressb > li {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  font-size: 0.6em;
+}
+.progressb > li:before {
+  content: attr(data-step);
+  display: block;
+  margin: 0 auto;
+  background: #DFE3E4;
+  width: 6.25em;
+  height: 6.25em;
+  text-align: center;
+  margin-bottom: 0.25em;
+  line-height: 5.5em;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1000;
+}
+.progressb > li:after {
+  content: '';
+  position: absolute;
+  display: block;
+  background: #DFE3E4;
+  width: 100%;
+  height: 0.75em;
+  top: 2.5em;
+  left: 50%;
+  margin-left: 1.5em\9;
+  z-index: -1;
+}
+.progressb > li:last-child:after {
+  display: none;
+}
+.progressb > li.is-complete {
+  color: #096932;
+  font-weight:bold;
+}
+.progressb > li.is-complete:before, .progressb > li.is-complete:after {
+  color: #FFF;
+  background: #2ECC71;
+}
+.progressb > li.is-danger {
+  color: #ff0000;
+  font-weight:bold;
+}
+.progressb > li.is-danger:before, .progressb > li.is-danger:after {
+  color: #FFF;
+  background: #e63737;
+}
+.progressb > li.is-expired {
+  color: #dbdd31;
+  font-weight:bold;
+}
+.progressb > li.is-expired:before, .progressb > li.is-expired:after {
+  color: #FFF;
+  background: #e5e733;
+}
+
+/**
+ * Needed for IE8
+ */
+.progressb__last:after {
+  display: none !important;
+}
+
+/**
+ * Size Extensions
+ */
+.progressb--medium {
+  font-size: 1.2em;
+}
+
+.progressb--large {
+  font-size: 1.2em;
+}
+
+/**
+ * Some Generic Stylings
+ */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
